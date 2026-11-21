@@ -16,3 +16,9 @@ print(freq)
 
 for char,count in freq.items():
     print(f"{char}:{count}")
+
+# Approch-2  using set() and count().
+
+s= input()
+for ch in set(s):
+    print(ch,":",s.count(ch))
